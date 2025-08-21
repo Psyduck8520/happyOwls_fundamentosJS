@@ -11,5 +11,5 @@ const c = 10;
 console.log(  a ===b  &&  a === c) //false por que una de las dos es falsa
 console.log( a != b || a ===c) // true por que una de estas dos se cumple
 console.log( !(a === c )) //Se gace una validacion
-
+ 
 
