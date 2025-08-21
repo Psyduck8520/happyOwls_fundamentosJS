@@ -21,3 +21,4 @@ console.log(contador)
  //valores contantes ofijas  que es una constante
 const pi  = 3.14 
 console.log('hola mundo')
+
