@@ -10,4 +10,6 @@ if ( numeroJugador ===  numeroSecreto){
     console.log("El numero es demasiado. bajo, intenta de nuevo") 
 } else  {
     console.log("El numero es muy alto intente de nuevo")
-}
+} 
+
+  
