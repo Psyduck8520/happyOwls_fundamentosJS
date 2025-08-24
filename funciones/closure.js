@@ -31,10 +31,15 @@ counterA() //3
  
 const  counterB = createCounter()
 counterB()
-function outer() {
+function outer() { // funciones mas flexibles
      let message  = "hello,"
      function innter(name){
         console.log(message +  name)
      }     
-}
+    return innter 
+} 
+const clouserA = outer()
+const clouserB = outer()
+clouserA('Edison') //a qui podemos ver elcontxtoa diferenca. de los numeros
+clouserB('Javier')
 
