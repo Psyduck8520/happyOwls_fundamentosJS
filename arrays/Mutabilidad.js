@@ -64,7 +64,7 @@ const newNumbes  = Array(1,2,3,4,5)
 // Practical execise, la suma de todos los elementos de un array
 let sumNumberarray = 0
 for  (numbers of newNumbes ) {
-      sumNumberarray  +=  numbers
+      sumNumberarray +=  numbers
 }
 console.log(sumNumberarray) 
  
