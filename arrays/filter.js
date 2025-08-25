@@ -27,4 +27,3 @@ const  wordsFrecuency  =  words.reduce(
  }, {} // es necesario. poner un objeto  vacion incial
 )
 console.log(wordsFrecuency)
-
