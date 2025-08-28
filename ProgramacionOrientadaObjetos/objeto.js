@@ -23,10 +23,24 @@ Objeto. tiene una propiedad. y un valor
 } // esta es la respuesta de como llevamos una persona  a programcion
 
 //Dentro de la estructa de los objetos. tambien tiene metodos y tiene funciones que estan adentro de los objeto
-// 
+//
+//si necesito agregar nuevas propiedades y nuevos metodos 
+persona.telefono =  '555-55 -55'
+console.log(persona.telefono)
+
+persona.despedir = ()  => {
+    console.log('Adios')
+};
+persona.despedir()
 
 
+///si tengo que borrar  eliminar propiedades y metodos 
 
+delete persona.telefono
+console.log(persona)
+
+delete persona.despedir;
+console.log(persona)
 
 
 

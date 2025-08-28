@@ -28,3 +28,4 @@ console.log(temperaturasCelsius)
 temperaturasInfarenheit.forEach(number => { sum+= number}) //  de esta. manera. realizamos la suma
 console.log(temperaturasInfarenheit)
 console.log(sum)
+
