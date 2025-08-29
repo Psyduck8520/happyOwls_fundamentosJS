@@ -67,6 +67,7 @@ for  (numbers of newNumbes ) {
       sumNumberarray +=  numbers
 }
 console.log(sumNumberarray) 
+
  
 
 
