@@ -74,3 +74,13 @@ form.addEventListener("submit",
         createPost(title,content)
     }
  )
+
+
+ postList.addEventListener("click" ,
+    (event) => {
+        console.log(event); //podemos ver que atributos nomas tiene este objeto
+        const postId  = event.target.closest("article").id; // SACA EL id mas secadono  del boton que dimos click
+        console.log(postId)
+        sendHttpRequest("DELETE", `https://jsonplaceholder.typicode.com/posts/${postId}`)
+    }
+ )
